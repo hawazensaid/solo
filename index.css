@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    /* empty-state */
+
+position: relative;
+width: 575px;
+height: 385px;
+
+background: #1B244A;
+
+}
+
+    @font-face {
+        font-family: 'digital'; /* Choose a name for your font */
+        src: url('digital-7.ttf')            ;
+            
+        font-weight: bold; /* Optional: Define font weight if needed */
+        font-style: normal;  /* Optional: Define font style if needed */
+    }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* home-score */
+#home{/* board-title-home */
+/* board-title-home */
+
+/* board-title-home */
+
+position: absolute;
+width: 149px;
+height: 36px;
+left: 85px;
+top: 68px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+text-align: center;
+
+color: #EEEEEE;
+
+
+
+}
+#guest{/* board-title-home */
+/* board-title-home */
+/* board-title-home */
+
+position: absolute;
+width: 149px;
+height: 36px;
+left: 340px;
+top: 68px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+text-align: center;
+
+color: #EEEEEE;
+
+
+
+
+}
+#home-score{
+
+/* home-points-text */
+/* home-points-text */
+
+position: absolute;
+width: 117px;
+height: 120px;
+left: 20px;
+
+
+font-family: 'digital';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+text-align: center;
+
+color: #F94F6D;
+
+
+
+
+}
+
+
+#guest-score{
+
+/* home-points-text */
+/* home-points-text */
+
+/* home-points-text */
+
+position: absolute;
+width: 117px;
+height: 120px;
+left: 20px;
+
+
+font-family: 'digital';
+
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+text-align: center;
+
+color: #F94F6D;
+
+
+
+
+
+}
+
+/* background */
+#home-score-back{
+position: absolute;
+width: 155px;
+height: 120px;
+left: 82px;
+top: 150px;
+background: #080001;
+border-radius: 5px;
+
+}
+
+
+
+
+/* background */
+#guest-score-back{
+
+position: absolute;
+width: 155px;
+height: 120px;
+left: 337px;
+top: 150px;
+
+background: #080001;
+border-radius: 5px;
+}
+
+
+/* add-points-btns-home */
+#home-btn{
+position: absolute;
+width: 155px;
+height: 45px;
+top: 150px;
+}
+
+
+#guest-btn{
+position: absolute;
+width: 155px;
+height: 45px;
+top: 150px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
